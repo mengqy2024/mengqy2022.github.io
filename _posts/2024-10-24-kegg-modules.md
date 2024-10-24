@@ -19,7 +19,7 @@ We need to use [KEGG][KEGG-docs] and [KEGG API][KAAS-docs] to collect some of th
 ### [KEGG][KEGG-docs]
 
 <div style="text-align: center;">
-  <img src="https://mengqy2022.github.io/mengqyms.github.io/assets/images/20241025-1.png"/>
+  <img src="https://mengqy2022.github.io/assets/images/20241025-1.png"/>
 </div>
 
 Collect all data from the site, save it in a file and modify it.
@@ -27,7 +27,7 @@ Collect all data from the site, save it in a file and modify it.
 `"Sublime Text" is recommended`
 
 <div style="text-align: center;">
-  <img src="https://mengqy2022.github.io/mengqyms.github.io/assets/images/20241025-2.png"/>
+  <img src="https://mengqy2022.github.io/assets/images/20241025-2.png"/>
 </div>
 
 Next, we need to convert it to a dataframe format. Use this script:
@@ -90,7 +90,7 @@ python Kegg_module_name_class_one.py Kegg_module_name_class.txt Kegg_module_name
 {% endhighlight %}
 
 <div style="text-align: center;">
-  <img src="https://mengqy2022.github.io/mengqyms.github.io/assets/images/20241025-3.png"/>
+  <img src="https://mengqy2022.github.io/assets/images/20241025-3.png"/>
 </div>
 
 ### KEGG API
@@ -102,7 +102,7 @@ The information corresponding to the KO number and the module can be obtained wi
 Very simple processing operation.
 
 <div style="text-align: center;">
-  <img src="https://mengqy2022.github.io/mengqyms.github.io/assets/images/20241025-4.png"/>
+  <img src="https://mengqy2022.github.io/assets/images/20241025-4.png"/>
 </div>
 
 ### Download Genome Annotation File
@@ -114,27 +114,27 @@ The previous work was as follows:
 Wait for results and then download the file.
 
 <div style="text-align: center;">
-  <img src="https://mengqy2022.github.io/mengqyms.github.io/assets/images/20241025-5.png"/>
+  <img src="https://mengqy2022.github.io/assets/images/20241025-5.png"/>
 </div>
 
 - Save the first file.
 
 <div style="text-align: center;">
-  <img src="https://mengqy2022.github.io/mengqyms.github.io/assets/images/20241025-6.png"/>
+  <img src="https://mengqy2022.github.io/assets/images/20241025-6.png"/>
 </div>
 
 - Second document.
 
 <div style="text-align: center;">
-  <img src="https://mengqy2022.github.io/mengqyms.github.io/assets/images/20241025-7.png"/>
+  <img src="https://mengqy2022.github.io/assets/images/20241025-7.png"/>
 </div>
 
 <div style="text-align: center;">
-  <img src="https://mengqy2022.github.io/mengqyms.github.io/assets/images/20241025-8.png"/>
+  <img src="https://mengqy2022.github.io/assets/images/20241025-8.png"/>
 </div>
 
 <div style="text-align: center;">
-  <img src="https://mengqy2022.github.io/mengqyms.github.io/assets/images/20241025-9.png"/>
+  <img src="https://mengqy2022.github.io/assets/images/20241025-9.png"/>
 </div>
 
 <div class="notice">
@@ -147,4 +147,4 @@ Wait for results and then download the file.
 [KEGG-docs]: https://www.kegg.jp/brite/ko00002a
 [API-docs]: https://www.kegg.jp/kegg/rest/
 [KO-moudles]: https://rest.kegg.jp/link/module/ko
-[KEGG-ann]: https://mengqy2022.github.io/mengqyms.github.io/gene%20annotation/kegg-ann/
+[KEGG-ann]: https://mengqy2022.github.io/gene%20annotation/kegg-ann/

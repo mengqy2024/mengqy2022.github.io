@@ -19,14 +19,14 @@ Comparison of metabolic modules by one symbiotic and three free-living bacteria.
 Now, we can use the data to analyze the metabolic modules.
 
 <div style="text-align: center;">
-  <img src="https://mengqy2022.github.io/mengqyms.github.io/assets/images/2024-10-25-Comparative-genomics-1.png"/>
+  <img src="https://mengqy2022.github.io/assets/images/2024-10-25-Comparative-genomics-1.png"/>
 </div>
 
 But there may be many such folders.
 The contents of the folder are the same.
 
 <div style="text-align: center;">
-  <img src="https://mengqy2022.github.io/mengqyms.github.io/assets/images/2024-10-25-Comparative-genomics-2.png"/>
+  <img src="https://mengqy2022.github.io/assets/images/2024-10-25-Comparative-genomics-2.png"/>
 </div>
 
 ### One step
@@ -34,7 +34,7 @@ The contents of the folder are the same.
 `query.ko` need to be modified. We can unify the process:
 
 <div style="text-align: center;">
-  <img src="https://mengqy2022.github.io/mengqyms.github.io/assets/images/2024-10-25-Comparative-genomics-3.png"/>
+  <img src="https://mengqy2022.github.io/assets/images/2024-10-25-Comparative-genomics-3.png"/>
 </div>
 
 {% highlight python %}
@@ -96,7 +96,7 @@ python kegg_module_two.py -f data/
 {% endhighlight %}
 
 <div style="text-align: center;">
-  <img src="https://mengqy2022.github.io/mengqyms.github.io/assets/images/2024-10-25-Comparative-genomics-4.png"/>
+  <img src="https://mengqy2022.github.io/assets/images/2024-10-25-Comparative-genomics-4.png"/>
 </div>
 
 ### Two step
@@ -197,7 +197,7 @@ python kegg_module_there.py -keg ./data/ICHIJ1_protein/q00001.keg -ko ./data/ICH
 {% endhighlight %}
 
 <div style="text-align: center;">
-  <img src="https://mengqy2022.github.io/mengqyms.github.io/assets/images/2024-10-25-Comparative-genomics-5.png"/>
+  <img src="https://mengqy2022.github.io/assets/images/2024-10-25-Comparative-genomics-5.png"/>
 </div>
 
 <div class="notice">
@@ -508,7 +508,7 @@ rm(result_1_7,Amino_acid,Carbohydrate_Lipid,result_Energy,result_cofa_vita,resul
 ## Result
 
 <div style="text-align: center;">
-  <img src="https://mengqy2022.github.io/mengqyms.github.io/assets/images/2024-10-25-Comparative-genomics-6.png"/>
+  <img src="https://mengqy2022.github.io/assets/images/2024-10-25-Comparative-genomics-6.png"/>
 </div>
 
 > For more details, you can check out: [Paper][Click-here]
@@ -516,5 +516,5 @@ rm(result_1_7,Amino_acid,Carbohydrate_Lipid,result_Energy,result_cofa_vita,resul
 > Email me with more questions!
 > 584338215@qq.com
 
-[kegg-modules]: https://mengqy2022.github.io/mengqyms.github.io/gene%20annotation/kegg-modules/
+[kegg-modules]: https://mengqy2022.github.io/gene%20annotation/kegg-modules/
 [Click-here]: https://journals.asm.org/doi/10.1128/aem.01900-23

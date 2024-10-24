@@ -1,10 +1,9 @@
 ---
 title: "Post: Notice"
 categories:
-  - Blog
+ - Jekyll
 tags:
-  - Post Formats
-  - notice
+ - jekyll
 ---
 
 A notice displays information that explains nearby content. Often used to call attention to a particular detail.
@@ -44,7 +43,6 @@ Want to wrap several paragraphs or other elements in a notice? Using Liquid to c
 
 {% capture notice-2 %}
 #### New Site Features
-
 * You can now have cover images on blog pages
 * Drafts will now auto-save while writing
 {% endcapture %}

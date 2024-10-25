@@ -13,14 +13,14 @@ Homologs similar sequences from a common ancestor.Orthologs: direct homologs are
 
 [OrthoFinder][orthoFinder-doc] is a fast, accurate and comprehensive platform for comparative genomics. It finds orthogroups and orthologs, infers rooted gene trees for all orthogroups and identifies all of the gene duplication events in those gene trees. It also infers a rooted species tree for the species being analysed and maps the gene duplication events from the gene trees to branches in the species tree. OrthoFinder also provides comprehensive statistics for comparative genomic analyses. OrthoFinder is simple to use and all you need to run it is a set of protein sequence files (one per species) in FASTA format.
 
-Previously we obtained protein coding sequences through the genome[Click][ga-doc], and now we want to construct a single-copy genome phylogenetic tree to analyze the evolutionary relationships among bacteria.
+Previously we obtained protein coding sequences through the genome [Click][ga-doc], and now we want to construct a single-copy genome phylogenetic tree to analyze the evolutionary relationships among bacteria.
 
 ## Data preparation
 
 ### Obtain the protein coding sequences
 
 - First, we can download the bacterial protein coding sequences from any public databases.
-- Secondly, the results are annotated by Prokka [Click][click-doc], which contains the protein coding sequence of the bacteria and other information.
+- Secondly, the results are annotated by Prokka, which contains the protein coding sequence of the bacteria and other information.
 
 <div style="text-align: center;">
   <img src="https://mengqy2022.github.io/assets/images/2024-10-26-phylogenetic-1.png"/>
@@ -401,4 +401,4 @@ Use Figtree to read the following files:
 [phylosuite-doc]: https://dongzhang0725.github.io/
 [figtree-doc]: http://tree.bio.ed.ac.uk/software/figtree/
 [ggtree-doc]: https://guangchuangyu.github.io/software/ggtree/
-[click-doc]: 
+[ga-doc]: https://mengqy2022.github.io/genomics/genome-annotation/

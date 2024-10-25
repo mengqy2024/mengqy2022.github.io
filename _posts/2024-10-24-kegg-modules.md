@@ -84,7 +84,6 @@ if __name__ == '__main__':
     main()
 {% endhighlight %}
 
-
 {% highlight bash %}
 python Kegg_module_name_class_one.py Kegg_module_name_class.txt Kegg_module_name_class_one.txt
 {% endhighlight %}

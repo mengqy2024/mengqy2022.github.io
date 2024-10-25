@@ -20,7 +20,7 @@ Previously we obtained protein coding sequences through the genome[Click][ga-doc
 ### Obtain the protein coding sequences
 
 - First, we can download the bacterial protein coding sequences from any public databases.
-- Secondly, the results are annotated by Prokka, which contains the protein coding sequence of the bacteria and other information.
+- Secondly, the results are annotated by [Prokka][prokka-doc], which contains the protein coding sequence of the bacteria and other information.
 
 <div style="text-align: center;">
   <img src="https://mengqy2022.github.io/assets/images/2024-10-26-phylogenetic-1.png"/>
@@ -401,3 +401,4 @@ Use Figtree to read the following files:
 [phylosuite-doc]: https://dongzhang0725.github.io/
 [figtree-doc]: http://tree.bio.ed.ac.uk/software/figtree/
 [ggtree-doc]: https://guangchuangyu.github.io/software/ggtree/
+[prokka-doc]: 

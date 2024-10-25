@@ -19,7 +19,7 @@ Comparison of metabolic modules by one symbiotic and three free-living bacteria.
 
 Now, we can use the data to analyze the metabolic modules.
 
-<div style="text-align: center;">
+<div style="text-align: center; margin-bottom: 20px;">
   <img src="https://mengqy2022.github.io/assets/images/2024-10-25-Comparative-genomics-1.png"/>
 </div>
 

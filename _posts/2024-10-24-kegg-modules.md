@@ -125,11 +125,11 @@ Wait for results and then download the file.
 
 - Second document.
 
-<div style="text-align: center;">
+<div style="text-align: center; margin-bottom: 20px;">
   <img src="https://mengqy2022.github.io/assets/images/20241025-7.png" title="one"/>
 </div>
 
-<div style="text-align: center;">
+<div style="text-align: center; margin-bottom: 20px;">
   <img src="https://mengqy2022.github.io/assets/images/20241025-8.png" title="two"/>
 </div>
 

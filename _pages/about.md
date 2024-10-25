@@ -3,7 +3,7 @@ permalink: /about/
 title: "Introduction"
 ---
 
-# Minor role
+## Minor role
 
 Hello everyone! My name is Mengqingyao.
 

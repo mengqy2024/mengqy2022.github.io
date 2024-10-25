@@ -16,7 +16,7 @@ Now in the same species of bacteria with both symbiotic and free-living modes of
 
 We need to use [KEGG][KEGG-docs] and [KEGG API][KAAS-docs] to collect some of the data we need.
 
-### [KEGG][KEGG-docs]
+### [KEGG]
 
 <div style="text-align: center;">
   <img src="https://mengqy2022.github.io/assets/images/20241025-1.png"/>

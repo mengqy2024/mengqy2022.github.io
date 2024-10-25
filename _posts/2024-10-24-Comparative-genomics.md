@@ -4,6 +4,7 @@ categories:
  - Comparative genomics
 tags: 
  - KEGG
+ - R
 ---
 
 # Introduction

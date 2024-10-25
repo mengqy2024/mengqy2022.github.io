@@ -4,6 +4,8 @@ categories:
  - Genomics
 tags: 
  - Bacteria
+ - bash
+ - python
 ---
 
 # Introduction-

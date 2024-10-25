@@ -4,9 +4,10 @@ categories:
  - Genomics
 tags: 
  - Bacteria
+ - python
 ---
 
-# Introduction-
+# Introduction
 
 Homologs similar sequences from a common ancestor.Orthologs: direct homologs are genes that entered other species during evolution and retained their original function.Paralogs are genes that are similar in function to the original genes that arose from gene duplication in the same species.Xenologs: dissimilar homologs are genes that are similar in function to the original genes that arose by horizontal gene transfer, symbiosis Xenologs: Heterologs are genes that are similar through horizontal gene transfer, symbiosis, or viral infestation.
 

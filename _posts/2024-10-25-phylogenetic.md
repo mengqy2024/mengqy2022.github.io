@@ -346,7 +346,7 @@ Read the parameter check to see if you need to accept it, and just accept it if 
   <img src="https://mengqy2022.github.io/assets/images/2024-10-26-phylogenetic-14.png"/>
 </div>
 
-<div style="text-align: center;">
+<div style="text-align: center; margin-bottom: 20px;">
   <img src="https://mengqy2022.github.io/assets/images/2024-10-26-phylogenetic-15.png"/>
 </div>
 

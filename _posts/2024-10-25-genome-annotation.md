@@ -167,8 +167,8 @@ echo "   如有疑问请联系: <15877464851@163.com>"
 {% endhighlight %}
 
 > **If you want to use this script, you need to have the following software installed:**
-> - Prokka
-> - Pseudofinder
+> - [Prokka][prokka-doc]
+> - [Pseudofinder][pseudofinder-doc]
 
 <div class="notice">
   <h4>Since the software is installed in a different way and in a different location, we need to make changes.</h4>

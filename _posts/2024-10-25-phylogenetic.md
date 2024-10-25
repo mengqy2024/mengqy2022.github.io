@@ -149,7 +149,6 @@ Separate the single-copy genomes corresponding to each species.
 # @Time    : 2024/10/08
 # @File    : Phylogenetic_singleortho_separa
 
-
 import os
 import argparse
 from Bio import SeqIO

@@ -502,7 +502,7 @@ rm(result_1_7,Amino_acid,Carbohydrate_Lipid,result_Energy,result_cofa_vita,resul
 ## Beautification
 
 1. I would suggest saving the image as a pdf.
-2. Evolutionary beautification using Adobe Illustrator.
+2. Use Adobe Illustrator to evolve and beautify.
 3. Save images as needed.
 
 ## Result

@@ -108,3 +108,9 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+giscus:
+  repo: "mengqy2022/mengqy2022.github.io" # 替换为你的GitHub仓库
+  repository-id: "R_kgDONFQ-nw"
+  category: "Announcements"
+  category-id: "DIC_kwDONFQ-n84CjtiY"

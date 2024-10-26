@@ -103,7 +103,6 @@ nohup python3 emapper.py -m diamond -i input.fa -o output.txt --tax_scope all --
 ## Quote 
 
 > - [eggNOG][eggNOG-doc]
-> - [Prokka][prokka-doc]
 > - [diamond][diamond-doc]
 
 > Email me with more questions!
@@ -111,7 +110,6 @@ nohup python3 emapper.py -m diamond -i input.fa -o output.txt --tax_scope all --
 
 [eggNOG-doc]: http://eggnog-mapper.embl.de/
 [ga-doc]: https://mengqy2022.github.io/genomics/genome-annotation/
-[prokka-doc]: https://github.com/tseemann/prokka
 [eggNOG-mapper-doc]: https://github.com/eggnogdb/eggnog-mapper
 [eggNOG-database]: http://eggnog5.embl.de/download/emapperdb-5.0.2/
 [diamond-doc]: https://github.com/bbuchfink/diamond

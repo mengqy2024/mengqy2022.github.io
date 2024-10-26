@@ -341,7 +341,7 @@ Merge all the single-copy gene sequences into a single file.
   <img src="https://mengqy2022.github.io/assets/images/2024-10-26-phylogenetic-9.png"/>
 </div>
 
-<div style="text-align: center;">
+<div style="text-align: center; margin-bottom: 20px;">
   <img src="https://mengqy2022.github.io/assets/images/2024-10-26-phylogenetic-10.png"/>
 </div>
 
@@ -357,7 +357,7 @@ Merge all the single-copy gene sequences into a single file.
   <img src="https://mengqy2022.github.io/assets/images/2024-10-26-phylogenetic-12.png"/>
 </div>
 
-<div style="text-align: center;">
+<div style="text-align: center; margin-bottom: 20px;">
   <img src="https://mengqy2022.github.io/assets/images/2024-10-26-phylogenetic-13.png"/>
 </div>
 
@@ -427,3 +427,4 @@ Use Figtree to read the following files:
 [figtree-doc]: http://tree.bio.ed.ac.uk/software/figtree/
 [ggtree-doc]: https://guangchuangyu.github.io/software/ggtree/
 [ga-doc]: https://mengqy2022.github.io/genomics/genome-annotation/
+[prokka-doc]: https://github.com/tseemann/prokka

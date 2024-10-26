@@ -23,8 +23,7 @@ OrthoFinder also provides comprehensive statistics for comparative genomic analy
 2. Phylogenetic analysis is designed to infer (assess) these evolutionary relationships, and the evolutionary relationships inferred through phylogenetic analysis are generally described by a phylogenetic tree (Phylogenetic tree), i.e.
 3. Phylogenetic analysis involves the entire process of constructing, assessing, and interpreting an evolutionary tree (tree for molecular evolution, tree for species evolution).
 
-- Single-copy Genes
-Single-copy genes are genes that have a small number of copies in the genome, only one or a few, and most are house-keeping genes in organisms.
+- Single-copy Genes are genes that have a small number of copies in the genome, only one or a few, and most are house-keeping genes in organisms.
 
 Previously we obtained protein coding sequences through the genome [Click][ga-doc], and now we want to construct a single-copy genome phylogenetic tree to analyze the evolutionary relationships among bacteria.
 

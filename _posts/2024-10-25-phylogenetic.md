@@ -9,9 +9,14 @@ tags:
 
 # Introduction
 
-Homologs similar sequences from a common ancestor.Orthologs: direct homologs are genes that entered other species during evolution and retained their original function.Paralogs are genes that are similar in function to the original genes that arose from gene duplication in the same species.Xenologs: dissimilar homologs are genes that are similar in function to the original genes that arose by horizontal gene transfer, symbiosis Xenologs: Heterologs are genes that are similar through horizontal gene transfer, symbiosis, or viral infestation.
+1. Homologs similar sequences from a common ancestor.
+2. Orthologs: direct homologs are genes that entered other species during evolution and retained their original function.
+3. Paralogs are genes that are similar in function to the original genes that arose from gene duplication in the same species.
+4. Heterologs are genes that are similar through horizontal gene transfer, symbiosis, or viral infestation.
 
-[OrthoFinder][orthoFinder-doc] is a fast, accurate and comprehensive platform for comparative genomics. It finds orthogroups and orthologs, infers rooted gene trees for all orthogroups and identifies all of the gene duplication events in those gene trees. It also infers a rooted species tree for the species being analysed and maps the gene duplication events from the gene trees to branches in the species tree. OrthoFinder also provides comprehensive statistics for comparative genomic analyses. OrthoFinder is simple to use and all you need to run it is a set of protein sequence files (one per species) in FASTA format.
+[OrthoFinder][orthoFinder-doc] is a fast, accurate and comprehensive platform for comparative genomics. It finds orthogroups and orthologs, infers rooted gene trees for all orthogroups and identifies all of the gene duplication events in those gene trees. It also infers a rooted species tree for the species being analysed and maps the gene duplication events from the gene trees to branches in the species tree.
+
+OrthoFinder also provides comprehensive statistics for comparative genomic analyses. OrthoFinder is simple to use and all you need to run it is a set of protein sequence files (one per species) in FASTA format.
 
 Previously we obtained protein coding sequences through the genome [Click][ga-doc], and now we want to construct a single-copy genome phylogenetic tree to analyze the evolutionary relationships among bacteria.
 
@@ -20,7 +25,7 @@ Previously we obtained protein coding sequences through the genome [Click][ga-do
 ### Obtain the protein coding sequences
 
 - First, we can download the bacterial protein coding sequences from any public databases.
-- Secondly, the results are annotated by Prokka, which contains the protein coding sequence of the bacteria and other information.
+- Secondly, the results are annotated by [Prokka][prokka-doc], which contains the protein coding sequence of the bacteria and other information.
 
 <div style="text-align: center;">
   <img src="https://mengqy2022.github.io/assets/images/2024-10-26-phylogenetic-1.png"/>
@@ -30,7 +35,8 @@ Previously we obtained protein coding sequences through the genome [Click][ga-do
 
 ### Protein sequence rename
 
-**It should be space and underscores and dots that are not recognized by some tree building software should be second we deal with the serial name.**
+- Need to deal with the name of the sequence.
+- Some symbols are not recognized by the software and an error is reported.
 
 {% highlight python %}
 #!/usr/bin/env python 
@@ -126,10 +132,14 @@ if __name__ == '__main__':
     main()
 {% endhighlight %}
 
+{% highlight bash %}
+python Phylogenetic_rename_fa.py -f Geneomes -o mod_genomes
+{% endhighlight %}
+
 ### Homologous genome identification
 
 {% highlight bash %}
-nohup orthofinder -f test/ &
+nohup orthofinder -f mod_genomes &
 {% endhighlight %}
 
 <div style="text-align: center;">
@@ -212,7 +222,7 @@ if __name__ == "__main__":
 {% endhighlight %}
 
 {% highlight bash %}
-python /home/mengqy/ps/Phylogenetic_singleortho_separa.py -i ./OrthoFinder/Results_May31/Single_Copy_Orthologue_Sequences/ -o singleortho_separa
+python Phylogenetic_singleortho_separa.py -i ./OrthoFinder/Results_May31/Single_Copy_Orthologue_Sequences/ -o singleortho_separa
 {% endhighlight %}
 
 <div style="text-align: center;">
@@ -283,7 +293,7 @@ if __name__ == "__main__":
 {% endhighlight %}
 
 {% highlight bash %}
-python /home/mengqy/ps/Phylogenetic_reads_one.py -i singleortho_separa/ -o reads_one
+python Phylogenetic_reads_one.py -i singleortho_separa/ -o reads_one
 {% endhighlight %}
 
 <div style="text-align: center;">
@@ -300,11 +310,13 @@ Merge all the single-copy gene sequences into a single file.
 
 [PhyloSuite][phylosuite-doc] is very easy to use and highly recommended.
 
-This is its GUI interface:
+- This is its GUI interface:
 
 <div style="text-align: center;margin-bottom: 20px;">
   <img src="https://mengqy2022.github.io/assets/images/2024-10-26-phylogenetic-5.png"/>
 </div>
+
+- Start use
 
 <div style="text-align: center; margin-bottom: 20px;">
   <img src="https://mengqy2022.github.io/assets/images/2024-10-26-phylogenetic-6.png"/>
@@ -326,10 +338,12 @@ This is its GUI interface:
   <img src="https://mengqy2022.github.io/assets/images/2024-10-26-phylogenetic-10.png"/>
 </div>
 
-Set up a workflow and save it for next time
-
 <div style="text-align: center; margin-bottom: 20px;">
   <img src="https://mengqy2022.github.io/assets/images/2024-10-26-phylogenetic-11.png"/>
+</div>
+
+<div class="notice">
+  <h4>Set up a workflow and save it for next time</h4>
 </div>
 
 <div style="text-align: center; margin-bottom: 20px;">
@@ -340,17 +354,19 @@ Set up a workflow and save it for next time
   <img src="https://mengqy2022.github.io/assets/images/2024-10-26-phylogenetic-13.png"/>
 </div>
 
-Read the parameter check to see if you need to accept it, and just accept it if you can't read it.
-
 <div style="text-align: center; margin-bottom: 20px;">
   <img src="https://mengqy2022.github.io/assets/images/2024-10-26-phylogenetic-14.png"/>
+</div>
+
+<div class="notice">
+  <h4>Read the parameter check to see if you need to accept it.<br>If you can't read it, you can accept it anyway.</h4>
 </div>
 
 <div style="text-align: center; margin-bottom: 20px;">
   <img src="https://mengqy2022.github.io/assets/images/2024-10-26-phylogenetic-15.png"/>
 </div>
 
-OK~ wainting for the result...
+**OK~ wainting for the result...**
 
 ## Result
 
@@ -390,6 +406,8 @@ Use Figtree to read the following files:
 
 ## Quote 
 
+> - [OrthoFinder][orthoFinder-doc]
+> - [Prokka][prokka-doc]
 > - [PhyloSuite][phylosuite-doc]
 > - [Figtree][figtree-doc]
 > - [ggtree][ggtree-doc]

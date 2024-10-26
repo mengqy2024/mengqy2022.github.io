@@ -124,7 +124,7 @@ nohup python3 emapper.py -m diamond -i input.fa -o output.txt --tax_scope all --
         data-reactions-enabled="1"
         data-emit-metadata="0"
         data-input-position="bottom"
-        data-theme="preferred_color_scheme"
+        data-theme="dark_high_contrast"
         data-lang="zh-CN"
         crossorigin="anonymous"
         async>

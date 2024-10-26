@@ -300,7 +300,7 @@ create_plots(DFMO, c("Control", "100μM", "200μM", "500μM"), file_name_prefix 
         data-reactions-enabled="1"
         data-emit-metadata="0"
         data-input-position="bottom"
-        data-theme="preferred_color_scheme"
+        data-theme="dark_high_contrast"
         data-lang="zh-CN"
         crossorigin="anonymous"
         async>

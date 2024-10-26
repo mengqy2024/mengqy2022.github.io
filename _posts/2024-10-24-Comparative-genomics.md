@@ -532,7 +532,7 @@ rm(result_1_7,Amino_acid,Carbohydrate_Lipid,result_Energy,result_cofa_vita,resul
         data-reactions-enabled="1"
         data-emit-metadata="0"
         data-input-position="bottom"
-        data-theme="preferred_color_scheme"
+        data-theme="dark_high_contrast"
         data-lang="zh-CN"
         crossorigin="anonymous"
         async>

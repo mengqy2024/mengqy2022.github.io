@@ -113,3 +113,19 @@ nohup python3 emapper.py -m diamond -i input.fa -o output.txt --tax_scope all --
 [eggNOG-mapper-doc]: https://github.com/eggnogdb/eggnog-mapper
 [eggNOG-database]: http://eggnog5.embl.de/download/emapperdb-5.0.2/
 [diamond-doc]: https://github.com/bbuchfink/diamond
+
+<script src="https://giscus.app/client.js"
+        data-repo="mengqy2022/mengqy2022.github.io"
+        data-repo-id="R_kgDONFQ-nw"
+        data-category="Announcements"
+        data-category-id="DIC_kwDONFQ-n84CjtiY"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>

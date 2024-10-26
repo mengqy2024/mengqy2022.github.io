@@ -428,3 +428,19 @@ Use Figtree to read the following files:
 [ggtree-doc]: https://guangchuangyu.github.io/software/ggtree/
 [ga-doc]: https://mengqy2022.github.io/genomics/genome-annotation/
 [prokka-doc]: https://github.com/tseemann/prokka
+
+<script src="https://giscus.app/client.js"
+        data-repo="mengqy2022/mengqy2022.github.io"
+        data-repo-id="R_kgDONFQ-nw"
+        data-category="Announcements"
+        data-category-id="DIC_kwDONFQ-n84CjtiY"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>

@@ -511,6 +511,9 @@ rm(result_1_7,Amino_acid,Carbohydrate_Lipid,result_Energy,result_cofa_vita,resul
 
 ## Quote
 
+> - [ImageGP][ImageGP-doc] 
+> - [omicshare][omicshare-doc]
+
 > Email me with more questions!
 > 584338215@qq.com
 

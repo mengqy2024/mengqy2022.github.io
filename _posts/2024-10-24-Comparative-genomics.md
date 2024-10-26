@@ -9,15 +9,13 @@ tags:
 
 # Introduction
 
-> [KEGG Modules][kegg-modules]
-
-We collected all of the above data files.
+We have collected the documents we need. [Click][kegg-modules]
 
 Comparison of metabolic modules by one symbiotic and three free-living bacteria.
 
 ## Start
 
-Now, we can use the data to analyze the metabolic modules.
+These data can be used to analyze differences in metabolic modules between subjects.
 
 <div style="text-align: center; margin-bottom: 20px;">
   <img src="https://mengqy2022.github.io/assets/images/2024-10-25-Comparative-genomics-1.png"/>
@@ -102,7 +100,7 @@ python kegg_module_two.py -f data/
 
 ### Two step
 
-Demonstrated only once, can be processed multiple times using a for loop.
+**Demonstrated only once, can be processed multiple times using a for loop.**
 
 {% highlight python %}
 #!/usr/bin/env python3
@@ -201,13 +199,10 @@ python kegg_module_there.py -keg ./data/ICHIJ1_protein/q00001.keg -ko ./data/ICH
   <img src="https://mengqy2022.github.io/assets/images/2024-10-25-Comparative-genomics-5.png"/>
 </div>
 
-<div class="notice">
-  <h4>The contents of all folders need to be processed.</h4>
-</div>
-
 ## Data Processing and Visualization
 
-**You can use a language you are good at, I use R.**
+> With regards to data visualization, there are many `GUI PASS STAMP Excel` and web visualization tools `[ImageGP]`[ImageGP-doc] `[omicshare]`[omicshare-doc] to choose from.
+> I like R so much, I use it.
 
 {% highlight R %}
 rm(list = ls())
@@ -514,8 +509,12 @@ rm(result_1_7,Amino_acid,Carbohydrate_Lipid,result_Energy,result_cofa_vita,resul
 
 > For more details, you can check out: [Paper][Click-here]
 
+## Quote
+
 > Email me with more questions!
 > 584338215@qq.com
 
 [kegg-modules]: https://mengqy2022.github.io/gene%20annotation/kegg-modules/
 [Click-here]: https://journals.asm.org/doi/10.1128/aem.01900-23
+[ImageGP-doc]: https://www.bic.ac.cn/ImageGP/
+[omicshare-doc]: https://www.omicshare.com/

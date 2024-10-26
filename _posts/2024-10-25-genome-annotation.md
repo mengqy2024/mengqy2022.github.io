@@ -12,6 +12,8 @@ tags:
 
 Now, we will genome annotate the bacterial genome, obtain protein coding sequences.
 
+These data can then be used for functional gene annotation, phylogenetic analysis, etc.
+
 ## Data preparation
 
 ### Obtain the Genome Sequence
@@ -229,11 +231,16 @@ nohup bash /home/mengqy/ws/No_pseudogene_faa.sh -i head.txt -g Genome/ &
 
 ## Result
 
-<div style="text-align: center;">
+<div style="text-align: center; margin-bottom: 20px;">
   <img src="https://mengqy2022.github.io/assets/images/2024-10-25-genome-annotation-3.png"/>
 </div>
 
 We won't explain the results of the different software in detail here, but if you're interested, you can visit [Prokka][prokka-doc] and [Pseudofinder][pseudofinder-doc] to find out.
+
+## Quote
+
+> - [Prokka][prokka-doc]
+> - [Pseudofinder][pseudofinder-doc]
 
 > Email me with more questions!
 > 584338215@qq.com

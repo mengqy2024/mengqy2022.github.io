@@ -10,23 +10,27 @@ tags:
 
 I'll use one of my previous studies as an example:
 
-Now in the same species of bacteria with both symbiotic and free-living modes of life, we wanted to analyze them histologically to see if there were any differences in their metabolism.
+There is a bacterium that has free-living and symbiotic, two modes of life.
+
+We want to analyze them in a comparative genomic analysis to see if there are differences in their metabolisms.
+
+To do this, we need to use [KEGG][KEGG-docs] and [KEGG API][KAAS-docs] to collect some of the data we need.
 
 ## Just do it.
 
-We need to use [KEGG][KEGG-docs] and [KEGG API][KAAS-docs] to collect some of the data we need.
+### KAAS
 
-### [KEGG]
-
-<div style="text-align: center;">
+<div style="text-align: center; margin-bottom: 20px;">
   <img src="https://mengqy2022.github.io/assets/images/20241025-1.png"/>
 </div>
 
 Collect all data from the site, save it in a file and modify it.
 
-`"Sublime Text" is recommended`
+<div class="notice">
+  <h4>"Sublime Text" is recommended.<br>Multiple identical strings can be manipulated together.</h4>
+</div>
 
-<div style="text-align: center;">
+<div style="text-align: center; margin-bottom: 20px;">
   <img src="https://mengqy2022.github.io/assets/images/20241025-2.png"/>
 </div>
 

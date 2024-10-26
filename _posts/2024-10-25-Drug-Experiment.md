@@ -9,19 +9,19 @@ tags:
 
 # Introduction
 
-Another great day, guys.
+> Another great day, guys.
 
-Lately I've been experimenting with drug-treated vivisectors, torturous.
+Lately, I've been experimenting with going through drug treatments, and it's been torturous.
 
 The data always turned out poorly and there was always a need to do duplicates, so I wrote a handy plotting script using R.
 
-It helps us to quickly generate pictures, observe and analyze the results.
+It helps us to quickly generate plot, observe and analyze the results.
 
 I hope this method will help you too.
 
 ## Data
 
-<div style="text-align: center;">
+<div style="text-align: center; margin-bottom: 20px;">
   <img src="https://mengqy2022.github.io/assets/images/2024-10-25-DE-1.png"/>
 </div>
 
@@ -34,10 +34,6 @@ I hope this method will help you too.
 - `Totals`: Every day's total number of surviving individual.
 - `Repeat`: Number of replicates for each drug concentration.
 - `Times`: The number of repetitions of the entire experimental procedure.
-
-<div class=".notice--primary">
-  <h4>If you wish to use this script more easily, the data format needs to be consistent with the above.</h4>
-</div>
 
 ## Visualization Script
 
@@ -225,7 +221,8 @@ create_plots <- function(data, concentrations, file_name_prefix, titles,
 **This script is used to generate the main of the image.**
 
 <div class="notice">
-  <h4>Please be careful with changes! <br> Of course you can resize the image.</h4>
+  <h4>If you wish to use this script more easily, the data format needs to be consistent with the above.<br>If you can read it, forget I said it.</h4>
+   <h4>Please be careful with changes!<br>Of course you can resize the image.</h4>
 </div>
 
 ## Usage
@@ -236,7 +233,6 @@ source("Euplotes_drugs_R6.r")
 library(readxl)
 # Load the data
 DFMO <- read_excel("Record.xlsx", sheet = 'DFMO')
-
 # Example usage
 create_plots(DFMO, c("Control", "100μM", "200μM", "500μM"), file_name_prefix = "DFMO", step_increase = .1,  titles = "DFMO treatment", plot_class = "smooth_box")
 {% endhighlight %}
@@ -269,7 +265,7 @@ create_plots(DFMO, c("Control", "100μM", "200μM", "500μM"), file_name_prefix 
 
 ## Result
 
-<div style="text-align: center;">
+<div style="text-align: center; margin-bottom: 20px;">
   <img src="https://mengqy2022.github.io/assets/images/2024-10-25-DE-6.png"/>
 </div>
 
@@ -277,16 +273,16 @@ create_plots(DFMO, c("Control", "100μM", "200μM", "500μM"), file_name_prefix 
   <img src="https://mengqy2022.github.io/assets/images/2024-10-25-DE-7.png"/>
 </div>
 
-> Email me with more questions!
-> 584338215@qq.com
-
-##  Quote
+## Quote
 
 > - [tidyverse][tidyverse-doc]
 > - [ggplot2][ggplot2-doc]
 > - [ggrepel][ggrepel-doc]
 > - [patchwork][patchwork-doc]
 > - [ggthemr][ggthemr-doc]
+
+> Email me with more questions!
+> 584338215@qq.com
 
 [tidyverse-doc]: https://tidyverse.tidyverse.org/
 [ggplot2-doc]: https://ggplot2-book.org/

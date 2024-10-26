@@ -201,7 +201,7 @@ python kegg_module_there.py -keg ./data/ICHIJ1_protein/q00001.keg -ko ./data/ICH
 
 ## Data Processing and Visualization
 
-> With regards to data visualization, there are many `GUI PASS STAMP Excel` and web visualization tools `[ImageGP]`[ImageGP-doc] `[omicshare]`[omicshare-doc] to choose from.
+> With regards to data visualization, there are many GUI `Origin STAMP Pirsm Excel` and web visualization tools [ImageGP][ImageGP-doc] [omicshare][omicshare-doc] to choose from.
 > I like R so much, I use it.
 
 {% highlight R %}

@@ -8,7 +8,7 @@ tags:
  - python
 ---
 
-# Introduction-
+# Introduction
 
 Now, we will genome annotate the bacterial genome, obtain protein coding sequences.
 

@@ -249,7 +249,7 @@ create_plots(DFMO, c("Control", "100μM", "200μM", "500μM"), file_name_prefix 
 
 **Plotted results:**
 
-<div style="text-align: center;">
+<div style="text-align: center; margin-bottom: 20px;">
   <img src="https://mengqy2022.github.io/assets/images/2024-10-25-DE-4.png"/>
 </div>
 

@@ -9,14 +9,22 @@ tags:
 
 # Introduction
 
-1. Homologs similar sequences from a common ancestor.
-2. Orthologs: direct homologs are genes that entered other species during evolution and retained their original function.
-3. Paralogs are genes that are similar in function to the original genes that arose from gene duplication in the same species.
-4. Heterologs are genes that are similar through horizontal gene transfer, symbiosis, or viral infestation.
+- Homologs similar sequences from a common ancestor.
+- Orthologs: direct homologs are genes that entered other species during evolution and retained their original function.
+- Paralogs are genes that are similar in function to the original genes that arose from gene duplication in the same species.
+- Heterologs are genes that are similar through horizontal gene transfer, symbiosis, or viral infestation.
 
 [OrthoFinder][orthoFinder-doc] is a fast, accurate and comprehensive platform for comparative genomics. It finds orthogroups and orthologs, infers rooted gene trees for all orthogroups and identifies all of the gene duplication events in those gene trees. It also infers a rooted species tree for the species being analysed and maps the gene duplication events from the gene trees to branches in the species tree.
 
 OrthoFinder also provides comprehensive statistics for comparative genomic analyses. OrthoFinder is simple to use and all you need to run it is a set of protein sequence files (one per species) in FASTA format.
+
+- Phylogeny
+1. Phylogeny is the opposite of individual development, which refers to the process of formation and development of a certain taxon, and its study is evolutionary relationships (origin and evolutionary relationships). 
+2. Phylogenetic analysis is designed to infer (assess) these evolutionary relationships, and the evolutionary relationships inferred through phylogenetic analysis are generally described by a phylogenetic tree (Phylogenetic tree), i.e.
+3. Phylogenetic analysis involves the entire process of constructing, assessing, and interpreting an evolutionary tree (tree for molecular evolution, tree for species evolution).
+
+- Single-copy Genes
+Single-copy genes are genes that have a small number of copies in the genome, only one or a few, and most are house-keeping genes in organisms.
 
 Previously we obtained protein coding sequences through the genome [Click][ga-doc], and now we want to construct a single-copy genome phylogenetic tree to analyze the evolutionary relationships among bacteria.
 

@@ -18,14 +18,14 @@ Gene function annotation, in simple terms, is the comparison of protein sequence
 3. Homologous gene classification of the whole genome protein sequences of species in each category yielded a total of 4.4M homologous gene classes. eggNOG database is an extension of NCBI's COG database, which collects a more comprehensive set of species and a larger amount of protein sequence data.
 4. The eggNOG database provides a comprehensive set of gene function annotations, including the functional categories of each gene (COG), the gene ontology (GO) terms, and the KEGG pathway information.
 
-Previously we obtained protein coding sequences through the genome [Click][ga-doc], and now we want to construct a single-copy genome phylogenetic tree to analyze the evolutionary relationships among bacteria.
+Previously we obtained protein coding sequences through the bacterial genome [Click][ga-doc], and now we want to construct a single-copy genome phylogenetic tree to analyze the evolutionary relationships among bacteria.
 
 ## Go to the next step
 
 ### Obtain the protein coding sequences
 
 - First, we can download the bacterial protein coding sequences from any public databases.
-- Secondly, the results are annotated by [Prokka][prokka-doc], which contains the protein coding sequence of the bacteria and other information.
+- Secondly, genome annotation was performed to obtain protein coding sequences.
 
 ##  eggNOG-mapper Gene function annotation
 

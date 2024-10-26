@@ -149,7 +149,7 @@ python Phylogenetic_rename_fa.py -f Geneomes -o mod_genomes
 nohup orthofinder -f mod_genomes &
 {% endhighlight %}
 
-<div style="text-align: center;">
+<div style="text-align: center; margin-bottom: 20px;">
   <img src="https://mengqy2022.github.io/assets/images/2024-10-26-phylogenetic-2.png"/>
 </div>
 

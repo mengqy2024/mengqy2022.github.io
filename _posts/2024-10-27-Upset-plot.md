@@ -21,7 +21,7 @@ Data from several bacteria were prepared and used to plot the upsets.
   <img src="https://mengqy2022.github.io/assets/images/2024-10-26-Upset-plot-1.png"/>
 </div>
 
-1. [KEGG][kegg-doc]
+>  [KEGG][kegg-doc]
 
 Check out the details:
 - [KEGG Annotation][kegg-ann]
@@ -35,12 +35,12 @@ Check out the details:
   <img src="https://mengqy2022.github.io/assets/images/2024-10-26-Upset-plot-2.png"/>
 </div>
 
-2. [OrthoFinder][orthofinder-doc]
+>  [OrthoFinder][orthofinder-doc]
 
 Check out the details:
 - [Phylogenetic Analysis Of Single-copy Genes!][phylo-doc]
 
-3. [eggNOG-mapper][eggNOG-doc]
+> [eggNOG-mapper][eggNOG-doc]
 
 Check out the details:
 - [Eggnog-mapper][egg-doc]

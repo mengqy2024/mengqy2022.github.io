@@ -298,7 +298,7 @@ p1 <- upset(cog_kegg,
 ggsave(filename = "test.pdf", p1, width = 60, height = 30, units = "cm")
 {% endhighlight %}
 
-**[Rsudio][rstudio-doc] is recommended for running this script.**
+**[RStudio][rstudio-doc] is recommended for running this script.**
 
 <div class="notice">
   <h4>I wrote this script a long time ago, and there is a lot of redundant code, but this is the original processing logic.<br><p></p>It's better to understand.</h4>
@@ -327,7 +327,7 @@ ggsave(filename = "test.pdf", p1, width = 60, height = 30, units = "cm")
 > - [eggNOG][eggNOG-doc]
 > - [tidyverse][tidyverse-doc]
 > - [ComplexUpset][complexupset-doc]
-> - [Rsudio][rstudio-doc]
+> - [RStudio][rstudio-doc]
 
 > Email me with more questions!
 > 584338215@qq.com

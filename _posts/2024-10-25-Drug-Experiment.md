@@ -221,9 +221,10 @@ create_plots <- function(data, concentrations, file_name_prefix, titles,
 **This script is used to generate the main of the image.**
 
 <div class="notice">
-  <h4>If you wish to use this script more easily, the data format needs to be consistent with the above.<br>If you can read it, forget I said it.</h4>
-   <h4>Please be careful with changes!<br>Of course you can resize the image.</h4>
+  <h4>If you wish to use this script more easily, the data format needs to be consistent with the above.<br><p></p>If you can read it, forget I said it.</h4>
+   <h4>Please be careful with changes!<br><p></p>Of course you can resize the image.</h4>
 </div>
+
 
 ## Usage
 

@@ -144,6 +144,11 @@ Wait for results and then download the file.
   <h4>The required documents are ready.</h4>
 </div>
 
+## Quote
+
+> - [KEGG][KEGG-docs]
+> - [KAAS][KAAS-docs] 
+
 > Email me with more questions!
 > 584338215@qq.com
 

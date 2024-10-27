@@ -28,10 +28,6 @@ Check out the details:
 - [KEGG Modules][kegg-modules]
 
 <div style="text-align: center; margin-bottom: 20px">
-  <img src="https://mengqy2022.github.io/assets/images/2024-10-26-Upset-plot-1.png"/>
-</div>
-
-<div style="text-align: center; margin-bottom: 20px">
   <img src="https://mengqy2022.github.io/assets/images/20241025-5.png"/>
 </div>
 
@@ -344,7 +340,8 @@ ggsave(filename = "test.pdf", p1, width = 60, height = 30, units = "cm")
 [rstudio-doc]: https://posit.co/
 [tidyverse-doc]: https://tidyverse.tidyverse.org/
 [complexupset-doc]: https://github.com/krassowski/complex-upset
-
+[kegg-ann]: https://mengqy2022.github.io/gene%20annotation/kegg-ann/
+[kegg-modules]: https://mengqy2022.github.io/gene%20annotation/kegg-modules/
 
 <script src="https://giscus.app/client.js"
         data-repo="mengqy2022/mengqy2022.github.io"

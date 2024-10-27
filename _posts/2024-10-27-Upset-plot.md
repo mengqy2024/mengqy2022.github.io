@@ -17,7 +17,7 @@ Data from several bacteria were prepared and used to plot the upsets.
 
 - All the data needed for the drawing of the UpSet plot.
 
-<div style="text-align: center; margin-bottom: 20px">
+<div style="text-align: center; margin-bottom: 20px;">
   <img src="https://mengqy2022.github.io/assets/images/2024-10-26-Upset-plot-1.png"/>
 </div>
 
@@ -27,11 +27,11 @@ Check out the details:
 - [KEGG Annotation][kegg-ann]
 - [KEGG Modules][kegg-modules]
 
-<div style="text-align: center; margin-bottom: 20px">
+<div style="text-align: center; margin-bottom: 20px;">
   <img src="https://mengqy2022.github.io/assets/images/20241025-5.png"/>
 </div>
 
-<div style="text-align: center; margin-bottom: 20px">
+<div style="text-align: center; margin-bottom: 20px;">
   <img src="https://mengqy2022.github.io/assets/images/2024-10-26-Upset-plot-2.png"/>
 </div>
 

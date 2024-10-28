@@ -17,3 +17,19 @@ I'll fill in as much content as I like pretty much at random.
 > - Learn
 > - fitness
 > - Keep up the good work.
+
+<script src="https://giscus.app/client.js"
+        data-repo="mengqy2022/mengqy2022.github.io"
+        data-repo-id="R_kgDONFQ-nw"
+        data-category="Announcements"
+        data-category-id="DIC_kwDONFQ-n84CjtiY"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="dark_high_contrast"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>

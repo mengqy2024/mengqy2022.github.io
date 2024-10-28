@@ -4,6 +4,8 @@ categories:
  - Comparative genomics
 tags: 
  - R
+ - KEGG
+ - COG
 ---
 
 # Introduction

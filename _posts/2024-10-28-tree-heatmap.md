@@ -1,5 +1,5 @@
 ---
-title: "ggtree: KEGG Pathway Heatmap""
+title: "ggtree: KEGG Pathway Heatmap"
 categories: 
  - Comparative genomics
 tags: 
@@ -9,7 +9,7 @@ tags:
 
 # Introduction
 
-<div style="text-align: center;">
+<div style="text-align: center; margin-bottom: 20px;">
   <img src="https://mengqy2022.github.io/assets/images/2024-10-28-tree-heatmap-1.png"/>
 </div>
 

@@ -32,6 +32,8 @@ KEGG pathway and module correspondence information. [Click][click-1]
   <img src="https://mengqy2022.github.io/assets/images/2024-10-28-tree-heatmap-3.png"/>
 </div>
 
+## R script for tree + heatmap
+
 {% highlight r %}
 #!/usr/bin/env Rscript
 # -*- coding: utf-8 -*-

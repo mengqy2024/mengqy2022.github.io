@@ -19,6 +19,7 @@ tags:
 OrthoFinder also provides comprehensive statistics for comparative genomic analyses. OrthoFinder is simple to use and all you need to run it is a set of protein sequence files (one per species) in FASTA format.
 
 - Phylogeny
+
 1. Phylogeny is the opposite of individual development, which refers to the process of formation and development of a certain taxon, and its study is evolutionary relationships (origin and evolutionary relationships). 
 2. Phylogenetic analysis is designed to infer (assess) these evolutionary relationships, and the evolutionary relationships inferred through phylogenetic analysis are generally described by a phylogenetic tree (Phylogenetic tree), i.e.
 3. Phylogenetic analysis involves the entire process of constructing, assessing, and interpreting an evolutionary tree (tree for molecular evolution, tree for species evolution).

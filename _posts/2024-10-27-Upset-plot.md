@@ -17,34 +17,30 @@ Data from several bacteria were prepared and used to plot the upsets.
 
 - All the data needed for the drawing of the UpSet plot.
 
-<div style="text-align: center; margin-bottom: 20px">
+<div style="text-align: center; margin-bottom: 20px;">
   <img src="https://mengqy2022.github.io/assets/images/2024-10-26-Upset-plot-1.png"/>
 </div>
 
-1. [KEGG][kegg-doc]
+>  [KEGG][kegg-doc]
 
 Check out the details:
 - [KEGG Annotation][kegg-ann]
 - [KEGG Modules][kegg-modules]
 
-<div style="text-align: center; margin-bottom: 20px">
-  <img src="https://mengqy2022.github.io/assets/images/2024-10-26-Upset-plot-1.png"/>
-</div>
-
-<div style="text-align: center; margin-bottom: 20px">
+<div style="text-align: center; margin-bottom: 20px;">
   <img src="https://mengqy2022.github.io/assets/images/20241025-5.png"/>
 </div>
 
-<div style="text-align: center; margin-bottom: 20px">
+<div style="text-align: center; margin-bottom: 20px;">
   <img src="https://mengqy2022.github.io/assets/images/2024-10-26-Upset-plot-2.png"/>
 </div>
 
-2. [OrthoFinder][orthofinder-doc]
+>  [OrthoFinder][orthofinder-doc]
 
 Check out the details:
 - [Phylogenetic Analysis Of Single-copy Genes!][phylo-doc]
 
-3. [eggNOG-mapper][eggNOG-doc]
+> [eggNOG-mapper][eggNOG-doc]
 
 Check out the details:
 - [Eggnog-mapper][egg-doc]
@@ -302,7 +298,7 @@ p1 <- upset(cog_kegg,
 ggsave(filename = "test.pdf", p1, width = 60, height = 30, units = "cm")
 {% endhighlight %}
 
-**[Rsudio][rstudio-doc] is recommended for running this script.**
+**[RStudio][rstudio-doc] is recommended for running this script.**
 
 <div class="notice">
   <h4>I wrote this script a long time ago, and there is a lot of redundant code, but this is the original processing logic.<br><br>It's better to understand.</h4>
@@ -331,7 +327,7 @@ ggsave(filename = "test.pdf", p1, width = 60, height = 30, units = "cm")
 > - [eggNOG][eggNOG-doc]
 > - [tidyverse][tidyverse-doc]
 > - [ComplexUpset][complexupset-doc]
-> - [Rsudio][rstudio-doc]
+> - [RStudio][rstudio-doc]
 
 > Email me with more questions!
 > 584338215@qq.com
@@ -344,7 +340,8 @@ ggsave(filename = "test.pdf", p1, width = 60, height = 30, units = "cm")
 [rstudio-doc]: https://posit.co/
 [tidyverse-doc]: https://tidyverse.tidyverse.org/
 [complexupset-doc]: https://github.com/krassowski/complex-upset
-
+[kegg-ann]: https://mengqy2022.github.io/gene%20annotation/kegg-ann/
+[kegg-modules]: https://mengqy2022.github.io/gene%20annotation/kegg-modules/
 
 <script src="https://giscus.app/client.js"
         data-repo="mengqy2022/mengqy2022.github.io"

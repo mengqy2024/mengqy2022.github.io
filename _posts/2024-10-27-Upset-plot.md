@@ -305,7 +305,7 @@ ggsave(filename = "test.pdf", p1, width = 60, height = 30, units = "cm")
 **[Rsudio][rstudio-doc] is recommended for running this script.**
 
 <div class="notice">
-  <h4>I wrote this script a long time ago, and there is a lot of redundant code, but this is the original processing logic.<br><p></p>It's better to understand.</h4>
+  <h4>I wrote this script a long time ago, and there is a lot of redundant code, but this is the original processing logic.<br><br>It's better to understand.</h4>
 </div>
 
 ## Result

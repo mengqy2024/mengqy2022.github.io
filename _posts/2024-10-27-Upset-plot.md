@@ -1,7 +1,7 @@
 ---
 title: "UpSet: Gene Function Annotation！"
 categories: 
- - Genomics
+ - Comparative genomics
 tags: 
  - R
 ---

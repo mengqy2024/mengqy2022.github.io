@@ -156,6 +156,7 @@ Wait for results and then download the file.
 [API-docs]: https://www.kegg.jp/kegg/rest/
 [KO-moudles]: https://rest.kegg.jp/link/module/ko
 [KEGG-ann]: https://mengqy2022.github.io/gene%20annotation/kegg-ann/
+[KAAS-docs]: https://www.genome.jp/tools/kaas/
 
 <script src="https://giscus.app/client.js"
         data-repo="mengqy2022/mengqy2022.github.io"

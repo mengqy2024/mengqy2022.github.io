@@ -61,15 +61,6 @@ author:
   avatar: "/assets/images/mqy.jpg"
   bio: "Good Good!"
   links:
-  - label: "Shanxi University"
-    icon: "fas fa-fw fa-link"
-    url: "https://www.sxu.edu.cn/"
-  - label: "CNCB"
-    icon: "fas fa-fw fa-link"
-    url: "https://ngdc.cncb.ac.cn/"
-  - label: "NCBI"
-    icon: "fas fa-fw fa-link"
-    url: "https://www.ncbi.nlm.nih.gov/"
   - label: "GitHub"
     icon: "fab fa-fw fa-github"
     url: "https://github.com/"
@@ -79,6 +70,15 @@ author:
   - label: "Instagram"
     icon: "fab fa-fw fa-instagram"
     url: "https://instagram.com/"
+  - label: "Shanxi University"
+    icon: "fas fa-fw fa-link"
+    url: "https://www.sxu.edu.cn/"
+  - label: "CNCB"
+    icon: "fas fa-fw fa-link"
+    url: "https://ngdc.cncb.ac.cn/"
+  - label: "NCBI"
+    icon: "fas fa-fw fa-link"
+    url: "https://www.ncbi.nlm.nih.gov/"
 
 footer:
   links:

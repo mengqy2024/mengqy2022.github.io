@@ -1,5 +1,5 @@
 ---
-title: "ggtree: KEGG Pathway Heatmap"
+title: "ggtree: KEGG Pathway Heatmap！"
 categories: 
  - Comparative genomics
 tags: 

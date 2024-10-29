@@ -6,7 +6,7 @@ tags:
  - R
 ---
 
-## Introduction
+# Introduction
 
 Here are the general requirements for writing code:
 

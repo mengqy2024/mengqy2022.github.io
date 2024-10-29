@@ -43,7 +43,6 @@ Here are the general requirements for writing code:
    - Always keep an eye on the best practices for the language and framework you are using, updating code to conform to the latest standards.
    - Engage in code reviews to learn from colleagues and improve code quality.
 
-
 ## Example One: Venn Diagram
 
 > Detailed content [Click][click-veen]
